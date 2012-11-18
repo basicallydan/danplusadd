@@ -1,0 +1,49 @@
+[{
+   "title" : "Matters of Great Importance",
+   "tracks" : [
+		{
+			"title" : "Naming Music Isn't Easy",
+			"mp3File" : "mattersofgreatimportance/01_Dan_Plus_Add_-_Naming_Music_Isnt_Easy.mp3"
+		},
+		{
+			"title" : "The Right Man in the Wrong Place",
+			"mp3File" : "mattersofgreatimportance/02_Dan_Plus_Add_-_The_Right_Man_in_the_Wrong_Place.mp3"
+		},
+		{
+			"title" : "My Landlord Sucks",
+			"mp3File" : "mattersofgreatimportance/03_Dan_Plus_Add_-_My_Landlord_Sucks.mp3"
+		},
+		{
+			"title" : "Monosyllabic Expression of Heedlessness (meh)",
+			"mp3File" : "mattersofgreatimportance/04_Dan_Plus_Add_-_Monosyllabic_Expression_of_Heedlessness_(meh).mp3"
+		},
+		{
+			"title" : "I want to own a coffee shop",
+			"mp3File" : "mattersofgreatimportance/05_Dan_Plus_Add_-_I_want_to_own_a_coffee_shop.mp3"
+		},
+		{
+			"title" : "What is this Nerdery",
+			"mp3File" : "mattersofgreatimportance/06_Dan_Plus_Add_-_What_is_this_Nerdery.mp3"
+		},
+		{
+			"title" : "Wikiverity",
+			"mp3File" : "mattersofgreatimportance/07_Dan_Plus_Add_-_Wikiverity.mp3"
+		},
+		{
+			"title" : "You're Dumb",
+			"mp3File" : "mattersofgreatimportance/08_Dan_Plus_Add_-_Youre_Dumb.mp3"
+		},
+		{
+			"title" : "At the Arcade",
+			"mp3File" : "mattersofgreatimportance/09_Dan_Plus_Add_-_At_the_Arcade.mp3"
+		},
+		{
+			"title" : "Brainfreeze - RETURN OF THE PAIN",
+			"mp3File" : "mattersofgreatimportance/09_Dan_Plus_Add_-_Brainfreeze_-_RETURN_OF_THE_PAIN.mp3"
+		},
+		{
+			"title" : "Welcome Back to the Internet",
+			"mp3File" : "mattersofgreatimportance/09_Dan_Plus_Add_-_Welcome_Back_to_the_Internet.mp3"
+		}
+   ]
+}]

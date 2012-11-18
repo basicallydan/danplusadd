@@ -1,0 +1,7 @@
+---
+layout: album
+title: Matters of Great Importance
+description: Matters of Great Importance (or <em>mogi</em> for short) is my second studio album, but my first <em>well-produced</em> album. I actually put some effort into the production :) It features a bunch of super cool songs.
+---
+
+{% include mogi.textile %}

@@ -1,0 +1,19 @@
+---
+layout: default
+title: All albums
+---
+
+<h2>All albums</h2>
+
+{% jsonball albums from page ../_json/albums.json %}
+
+{% for album in albums %}
+<h3>{{ album.title }}</h2>
+
+<ol>
+{% for track in album.tracks %}
+	<li><span class="track-controls"><a href="/tracks/{{ track.mp3File }}"><i class="icon-download"></i></a>&nbsp;<a class="inline-playable" href="/tracks/{{ track.mp3File }}"><i class="icon-play"></i></a></span>{{ track.title }}</li>
+{% endfor %}
+</ol>
+
+{% endfor %}

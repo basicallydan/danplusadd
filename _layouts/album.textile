@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% jsonball albums from page "_json/albums.json" %}
+
+{% for album in albums %}
+<h2>{{ album.title }}</h2>
+{% endfor %}
