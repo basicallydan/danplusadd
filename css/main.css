@@ -20,3 +20,6 @@ body {
 .track-controls {
 	padding-right:5px;
 }
+li.active {
+	color:#08C;
+}

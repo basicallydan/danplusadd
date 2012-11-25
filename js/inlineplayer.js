@@ -166,6 +166,14 @@ function InlinePlayer() {
         }
         thisSound.togglePause(); // start playing current
       }
+
+      if (thisSound.paused) {
+        self.showPlay(o);
+      } else {
+        self.resetAllButtons();
+        self.showPause(o);
+      }
+
     } else {
       // stop last sound
       if (self.lastSound) {
@@ -189,6 +197,10 @@ function InlinePlayer() {
       self.soundsByURL[soundURL] = thisSound;
       self.sounds.push(thisSound);
       thisSound.play();
+
+      self.resetAllButtons();
+
+      self.showPause(o);
     }
 
     self.lastSound = thisSound; // reference for next call
@@ -199,6 +211,23 @@ function InlinePlayer() {
       event.returnValue = false;
     }
     return false;
+  }
+
+  this.showPlay = function(oLink) {
+    $(oLink).children('i').removeClass('icon-pause');
+    $(oLink).children('i').addClass('icon-play');
+  }
+
+  this.showPause = function(oLink) {
+    $(oLink).children('i').removeClass('icon-play');
+    $(oLink).parent('span').parent('li').addClass('active');
+    $(oLink).children('i').addClass('icon-pause');
+  }
+
+  this.resetAllButtons = function() {
+    $('.' + this.playableClass).children('i').removeClass('icon-pause');
+    $('.' + this.playableClass).children('i').addClass('icon-play');
+    $('.' + this.playableClass).parent('span').parent('li').removeClass('active');
   }
 
   this.stopSound = function(oSound) {
