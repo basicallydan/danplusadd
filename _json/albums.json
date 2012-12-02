@@ -46,4 +46,17 @@
 			"mp3File" : "mattersofgreatimportance/09_Dan_Plus_Add_-_Welcome_Back_to_the_Internet.mp3"
 		}
    ]
+},
+{
+   "title" : "100% Organic",
+   "tracks" : [
+		{
+			"title" : "My Landlord Sucks",
+			"mp3File" : "100percentorganic/Dan_Plus_Add_-_My_Landlord_Sucks_acoustic.mp3"
+		},
+		{
+			"title" : "Way Too Drunk",
+			"mp3File" : "100percentorganic/Dan_Plus_Add_-_Way_Too_Drunk_acoustic.mp3"
+		}
+	]
 }]
